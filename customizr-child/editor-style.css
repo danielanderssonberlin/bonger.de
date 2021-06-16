@@ -1,0 +1,28 @@
+/* Editor */
+@media only screen and (min-width: 600px) {
+  .editor-styles-wrapper .wp-block[data-align=full] {
+    width: calc(100% + 20px) !important;
+    max-width: calc(100% + 20px) !important;
+    left: 0 !important; } }
+
+.wp-block-verse {
+	background: white;
+}
+
+ .editor-styles-wrapper .wp-block {
+	width: auto !important;
+    max-width: 1140px !important;
+}
+
+.editor-post-title__input {
+	font-size: 1.5em !important;
+	font-weight: 400 !important;
+    color: #303133 !important;
+    font-family: "Source Sans Pro",Arial,sans-serif !important;
+}
+
+.block-editor-writing-flow {
+	max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+}
